@@ -25,7 +25,7 @@ ssl_certs/localhost.key
 results
 
 /sync*.sh
-models/MiniCPM-o-2_6*
+/local_build.sh
 models/iic
 models
 resource/audio
@@ -38,3 +38,21 @@ exp/
 uv.lock
 logs/
 .lock
+node_modules/
+.vitepress/cache/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+.qoder/
+CLAUDE.md
+.cursor/
+
+# Python bytecode cache directories (any depth)
+__pycache__/
+
+# pytest runtime artifacts (MP4/CSV/PNG/log dumps under tests/**/outputs/)
+tests/**/outputs/
+.pytest_cache/
+
+# tmux session logs
+tmux-client-*.log
